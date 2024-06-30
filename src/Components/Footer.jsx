@@ -6,9 +6,9 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 md:flex-row">
       <h1 className="font-RobotoMono text-2xl font-bold">Reach me out...</h1>
-      <ul className="flex flex-row gap-4 text-3xl ">
+      <ul className="flex flex-row gap-4 text-3xl md:text-5xl ">
         <li>
           <a href="">
             <AiFillGithub />
